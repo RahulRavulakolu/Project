@@ -59,7 +59,6 @@ def fedback():
 
 @app.route("/")
 def index():
-    print("hello world")
     return render_template("index.html")
 
 if __name__=="__main__":
